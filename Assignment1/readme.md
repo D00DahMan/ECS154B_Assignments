@@ -38,7 +38,7 @@ Click `muxNto1_tb` and then double click the signals you want to view on the bot
 Implement a mealy model of a vending machine in [vending_machine.sv](vending_machine.sv). The vending machine accepts nickel and dime only. When a total of 30 cents is inserted, the machine dispenses a product and returns any change if necessary. Use the testbench [vending_machine_tb.sv](vending_machine_tb.sv) to test your design.
 
 ## test
-use the same commands as above, replacing muxNto1 with vending_machine.
+use the same commands as above, replacing `muxNto1` with `vending_machine`.
 
-# Submission (under construction)
-Submit your completed muxNto1.sv, vending_machine.sv files on Gradescope. 
+# Submission
+Submit your completed `muxNto1.sv`, `vending_machine.sv` files on Gradescope. Assignments due by 11:59 PM on Friday, January 23rd. 
