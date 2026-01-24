@@ -7,6 +7,9 @@ module muxNto1 #(
     output logic [WIDTH-1:0] out
 );
     
-    // TODO: Implement the N to 1 multiplexer logic
-    
+always_comb begin
+    out = '0;
+    out = in_bus[sel];
+end
+
 endmodule
