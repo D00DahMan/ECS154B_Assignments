@@ -6,6 +6,7 @@ In 154A you made a CPU in Logisim. Here, you will make a CPU in SystemVerilog.
 ![CPU](CPU.png)
 
 This is the CPU from the [Generic CPU](https://canvas.ucdavis.edu/courses/1035776/files/29845499?wrap=1)
+**Important:** The testbench merely test the correctness of your CPU. Thus, your design is not limited to single bus or multi-cycle implementation. 
 
 ## Instructions Set Architecture
 | Instruction Format | Opcode | Operation |
