@@ -7,3 +7,6 @@ Assignment 1 and 2 are using Hardware Design Language SystemVerilog, assignment 
 - [Assignment 2](Assignment2/): (tentative) End of Week 5
 - Assignment 3: End of Week 8
 - Assignment 4: End of Week 10
+
+## Pull Requests
+You are welcome to do pull requests if you see any bugs or have any improvemnts to suggest.
