@@ -62,9 +62,9 @@ lw   r1, r0     # r1 = mem[r0] = mem[15] = 15
 beq  1          # if (r0 == r1) skip next instruction
 halt            # should be skipped
 addm r0, r0     # r0 = r0 + mem[r0] = 15 + mem[15] = 30
-addi r1, 7      # r1 = 10 + 7 = 17
-sub  r0, r1     # r0 = r0 - r1 = 30 - 17 = 13
-sw   r0, r1     # mem[r1] = r0 = mem[17] = 13
+addi r1, 7      # r1 = 15 + 7 = 22
+sub  r0, r1     # r0 = r0 - r1 = 30 - 22 = 8
+sw   r0, r1     # mem[r1] = r0 = mem[22] = 8
 halt            # end of program
 ```
 The provided testbench [CPU_tb.sv](CPU_tb.sv) runs this program and checks that the final values in registers and memory are correct. You can modify the testbench or write your own to test additional cases.
