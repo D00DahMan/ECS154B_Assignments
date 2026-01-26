@@ -16,6 +16,11 @@ module CPU_tb;
         forever #5 clk = ~clk;  // 10ns period
     end
 
+    initial begin
+        $dumpfile("cpu.vcd");
+        $dumpvars(0, cpu_tb);
+    end
+
     // Test program
     initial begin
         $display("Starting CPU test...");

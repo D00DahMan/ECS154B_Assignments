@@ -1,11 +1,11 @@
 # Introduction
 In 154A you made a CPU in Logisim. Here, you will make a CPU in SystemVerilog. 
 
-## Here's the 8 bit CPU you are making:
+## Here's the 8 bit multi-cycle CPU you are making:
 (People who took 154A last quarter may found this familiar)
 ![CPU](CPU.png)
 
-This is the CPU from the [class notes](https://canvas.ucdavis.edu/courses/1035776/files/29845499?wrap=1)
+This is the CPU from the [Generic CPU](https://canvas.ucdavis.edu/courses/1035776/files/29845499?wrap=1)
 
 ## Instructions Set Architecture
 | Instruction Format | Opcode | Operation |
@@ -68,3 +68,6 @@ Below is the test program in assemble.
 10. halt            # end of program
 ```
 The provided testbench [cpu_tb.sv](cpu_tb.sv) runs this program and checks that the final values in registers and memory are correct. You can modify the testbench or write your own to test additional cases.
+
+## Submission
+under construction
