@@ -69,9 +69,9 @@ module CPU_tb;
 
         // Check results
         $display("\n=== Test Results ===");
-        $display("r0 = %0d (expected: 8)", dut.registers[0]);
-        $display("r1 = %0d (expected: 22)", dut.registers[1]);
-        $display("mem[22] = %0d (expected: 8)", dut.memory[22]);
+        $display("r0 = %0d (expected: 30)", dut.registers[0]);
+        $display("r1 = %0d (expected: 17)", dut.registers[1]);
+        $display("mem[17] = %0d (expected: 13)", dut.memory[17]);
         $display("PC = %0d", dut.PC);
 
         // Verify correctness
