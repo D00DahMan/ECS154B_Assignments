@@ -2,7 +2,7 @@
 In 154A you made a CPU in Logisim. Here, you will make a CPU in SystemVerilog. 
 
 ## Here's the 8 bit multi-cycle CPU you are making:
-(People who took 154A last quarter may found this familiar, but it's very different!)
+(People who took 154A last quarter may find this familiar, but it's very different!)
 **Important:** The testbench merely test the correctness of your CPU. Thus, your design is not limited to single bus or multi-cycle implementation. i.e. you may found yourself using less states, or using muxes and hide away the bus.
 
 ![CPU](CPU.png)
